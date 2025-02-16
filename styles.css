@@ -1,22 +1,32 @@
+:root {
+    --color-background: #121212;
+    --color-primary: #ffcc22;
+    --color-secondary: #ff22ed;
+    --color-text: color-mix(in srgb, var(--color-secondary), white 80%);
+    --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 40%);
+
+    --page-width: 48rem;
+}
+
 body {
-    background-color: #121212;
+    background-color: var(--color-background);
     margin: 0;
     font-size: 16pt;
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
-    color: color-mix(in srgb, #ffcc22, white 80%);
+    color: var(--color-text);
     height: calc(100vh - 4rem);
 }
 
 header, footer, main {
-    width: 48rem;
+    width: var(--page-width);
     margin: auto;
 }
 
 main {
     padding: 2rem;
     height: 100%;
-    background-color: color-mix(in srgb, #121212, white 5%);
+    background-color: color-mix(in srgb, var(--color-background), white 5%);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -27,24 +37,33 @@ article {
 }
 
 a {
-    color: #ff22ed;
+    color: var(--color-secondary);
     font-weight: 200;
 }
 
 h1, h2, h3 {
-    color: #ffcc22;
+    color: var(--color-primary);
     font-family: Georgia, serif;
     font-style: italic;
 }
 
 article ul {
     padding: 2rem 2.8rem;
-    background-color: #121212;
+    background-color: var(--color-background);
     border-radius: 8px;
     margin: 0;
+}
+article ul li {
+    list-style: none;
+}article ul li {
+    content: '- ';
 }
 
 footer {
     text-align: center;
     font-size: 12pt;
+}
+
+hr {
+    color: var(--color-text-faded);
 }
