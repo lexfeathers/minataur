@@ -85,6 +85,7 @@ article ul li {
 footer {
     text-align: center;
     font-size: 12pt;
+    margin-top: var(--padding-main);
 }
 
 hr {
@@ -101,6 +102,7 @@ hr {
                     )
                 );
         margin: 0;
+        height: 100vh;
     }
     article ul {
         padding: 1rem 1.4rem;
