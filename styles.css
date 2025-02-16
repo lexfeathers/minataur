@@ -16,7 +16,10 @@
         --color-secondary: #045c60;
     
         --color-text: color-mix(in srgb, var(--color-primary), black 80%);
-        --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%);
+        /* --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%); */
+    }
+    body {
+        font-weight: 200;
     }
 }
 
