@@ -21,6 +21,9 @@
     body {
         font-weight: 200;
     }
+    main {
+        background-color: color-mix(in srgb, var(--color-background), black 5%);
+    }
 }
 
 body {
