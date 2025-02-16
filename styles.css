@@ -28,9 +28,6 @@
         font-weight: 500 !important;
         color: var(--color-primary) !important;
     }
-    article ul {
-        padding: 1rem 1.4rem;
-    }
 }
 
 body {
@@ -103,5 +100,8 @@ hr {
                         var(--padding-main) * 2
                     )
                 );
+    }
+    article ul {
+        padding: 1rem 1.4rem;
     }
 }
