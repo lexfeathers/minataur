@@ -73,7 +73,7 @@ article ul {
 }
 article ul li {
     list-style: none;
-}article ul li {
+}article ul li::before {
     content: '- ';
 }
 
