@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: light) {
     :root {
         --color-background: #fff8f1;
-        --color-primary: #4f0939;
+        --color-primary: #e34588;
         --color-secondary: #2e8084;
     
         --color-text: color-mix(in srgb, var(--color-primary), var(--color-secondary) 80%);
