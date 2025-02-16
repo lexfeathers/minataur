@@ -58,6 +58,10 @@ article {
     flex: 1 0 auto;
 }
 
+p {
+    font-size: 14pt;
+}
+
 a {
     color: var(--color-secondary);
     font-weight: 400;
