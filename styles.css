@@ -85,7 +85,7 @@ article ul li {
 footer {
     text-align: center;
     font-size: 12pt;
-    margin-top: var(--padding-main);
+    margin: var(--padding-main) 0;
 }
 
 hr {
