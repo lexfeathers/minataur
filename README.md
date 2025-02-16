@@ -1,3 +1,2 @@
 # We're learning! It's great!
-
-Due Feb 17th: install rbenv on my mac
+Silly little website at: [https://lexfeathers.github.io/minataur/](https://lexfeathers.github.io/minataur/)
