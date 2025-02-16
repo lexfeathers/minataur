@@ -15,14 +15,14 @@
         --color-primary: #4f0939;
         --color-secondary: #045c60;
     
-        --color-text: color-mix(in srgb, var(--color-primary), black 80%);
+        --color-text: color-mix(in srgb, var(--color-primary), var(--color-secondary) 80%);
         /* --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%); */
     }
     body {
-        font-weight: 200;
+        font-weight: 200 !important;
     }
     main {
-        background-color: color-mix(in srgb, var(--color-background), black 5%);
+        background-color: color-mix(in srgb, var(--color-background), var(--color-text) 6%) !important;
     }
 }
 
