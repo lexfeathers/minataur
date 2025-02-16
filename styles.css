@@ -8,6 +8,8 @@
     --page-width: 48rem;
 }
 
+
+
 body {
     background-color: var(--color-background);
     margin: 0;
@@ -65,5 +67,7 @@ footer {
 }
 
 hr {
-    color: var(--color-text-faded);
+    height: 2px;
+    border: none;
+    background-color: var(--color-text-faded);
 }
