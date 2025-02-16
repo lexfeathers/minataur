@@ -2,7 +2,7 @@
     --color-background: #121212;
     --color-primary: #ffcc22;
     --color-secondary: #ff22ed;
-    --color-text: color-mix(in srgb, var(--color-secondary), white 80%);
+    --color-text: color-mix(in srgb, var(--color-primary), white 80%);
     --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 40%);
 
     --page-width: 48rem;
