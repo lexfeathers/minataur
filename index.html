@@ -10,41 +10,57 @@
 </head>
 <body>
     <main>
-        <h1>What a cool website</h1>
-        <p>This is a place where I'll be learning some stuff about Ruby and logging my progress. The list that follows details what has been covered so far.</p>
-        <h2>Tasks:</h2>
-        <ul>
-            <li><s>Feb 17 2025: Install <a href="https://github.com/rbenv/rbenv" target="_blank">rbenv</a> on my mac</s></li>
-            <li>Feb 24: tbd</li>
-        </ul>
+        <header>
+            <h1>Lex learns</h1>
+            <hr>
+        </header>
+
+        <article>
+            <p>This is a place where I'll be learning some stuff about Ruby and logging my progress. The list that follows details what has been covered so far.</p>
+
+            <h2>Tasks:</h2>
+            <ul>
+                <li><s>Feb 17 2025: Install <a href="https://github.com/rbenv/rbenv" target="_blank">rbenv</a> on my mac</s></li>
+                <li>Feb 24: tbd</li>
+            </ul>
+        </article>
+
+        <footer>
+            <span>&copy; Lex Feathers</span>
+        </footer>
     </main>
+
+    <style>
+        body {
+            background-color: #121212;
+            margin: 0;
+            font-size: 16pt;
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 100;
+            color: color-mix(in srgb, #ffcc22, white 80%);
+        }
+        
+        header, footer, main {
+            width: 800px;
+            margin: auto;
+        }
+
+        main {
+            padding: 2rem;
+            height: 100%;
+            background-color: color-mix(in srgb, #121212, white 5%);
+        }
+        
+        a {
+            color: #ff22ed;
+            font-weight: 200;
+        }
+        
+        h1, h2, h3 {
+            color: #ffcc22;
+            font-family: Georgia, serif;
+            font-style: italic;
+        }
+    </style>
 </body>
-<style>
-    body {
-        background-color: #121212;
-        margin: 0;
-        font-size: 16pt;
-        font-family: 'Roboto Mono', monospace;
-        font-weight: 100;
-        color: color-mix(in srgb, #ffcc22, white 80%);
-    }
-    
-    main {
-        width: 800px;
-        margin: auto;
-        padding: 2rem;
-        height: 100%;
-        background-color: color-mix(in srgb, #121212, white 5%);
-    }
-    
-    a {
-        color: #ff22ed;
-    }
-    
-    h1, h2, h3 {
-        color: #ffcc22;
-        font-family: Georgia, serif;
-        font-style: italic;
-    }
-</style>
 </html>
