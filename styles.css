@@ -37,6 +37,13 @@ h1, h2, h3 {
     font-style: italic;
 }
 
+article ul {
+    padding: 2rem 2.8rem;
+    background-color: #121212;
+    border-radius: 8px;
+    margin: 0;
+}
+
 footer {
     text-align: center;
     font-size: 12pt;
