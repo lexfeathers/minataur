@@ -102,7 +102,6 @@ hr {
                     100% - calc(
                         var(--padding-main) * 2
                     )
-                )
-            ;
-    };
+                );
+    }
 }
