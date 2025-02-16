@@ -13,7 +13,7 @@
     :root {
         --color-background: #fff8f1;
         --color-primary: #4f0939;
-        --color-secondary: #045c60;
+        --color-secondary: #2e8084;
     
         --color-text: color-mix(in srgb, var(--color-primary), var(--color-secondary) 80%);
         /* --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%); */
@@ -39,12 +39,9 @@ body {
     height: calc(100vh - 4rem);
 }
 
-header, footer, main {
+main {
     width: var(--page-width);
     margin: auto;
-}
-
-main {
     padding: 2rem;
     height: 100%;
     background-color: color-mix(in srgb, var(--color-background), white 5%);
