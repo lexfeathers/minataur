@@ -19,10 +19,13 @@
         /* --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%); */
     }
     body {
-        font-weight: 200 !important;
+        font-weight: 300 !important;
     }
     main {
         background-color: color-mix(in srgb, var(--color-background), var(--color-text) 6%) !important;
+    }
+    a {
+        font-weight: 500 !important;
     }
 }
 
@@ -55,7 +58,7 @@ article {
 
 a {
     color: var(--color-secondary);
-    font-weight: 200;
+    font-weight: 400;
 }
 
 h1, h2, h3 {
