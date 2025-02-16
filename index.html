@@ -38,6 +38,7 @@
             font-family: 'Roboto Mono', monospace;
             font-weight: 100;
             color: color-mix(in srgb, #ffcc22, white 80%);
+            height: calc(100vh - 4rem);
         }
         
         header, footer, main {
@@ -49,6 +50,13 @@
             padding: 2rem;
             height: 100%;
             background-color: color-mix(in srgb, #121212, white 5%);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        article {
+            flex: 1 0 auto;
         }
         
         a {
@@ -60,6 +68,11 @@
             color: #ffcc22;
             font-family: Georgia, serif;
             font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12pt;
         }
     </style>
 </body>
