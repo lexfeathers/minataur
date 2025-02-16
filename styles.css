@@ -28,6 +28,9 @@
         font-weight: 500 !important;
         color: var(--color-primary);
     }
+    article ul {
+        padding: 1rem 1.4rem;
+    }
 }
 
 body {
