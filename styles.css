@@ -12,8 +12,8 @@
         --color-background: #fff8f1;
         --color-primary: #4f0939;
         --color-secondary: #045c60;
-        
-        --color-text: color-mix(in srgb, var(--color-primary), white 80%);
+
+        --color-text: color-mix(in srgb, var(--color-primary), black 80%);
         --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%);
     }
 }
