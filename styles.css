@@ -89,3 +89,9 @@ hr {
     border: none;
     background-color: var(--color-text-faded);
 }
+
+@media screen and (max-width: 749px) {
+    main {
+        width: 100%;
+    };
+}
