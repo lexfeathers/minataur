@@ -13,7 +13,7 @@
     :root {
         --color-background: #fff8f1;
         --color-primary: #e34588;
-        --color-secondary: #2e8084;
+        --color-secondary: #1d6164;
     
         --color-text: color-mix(in srgb, var(--color-primary), var(--color-secondary) 80%);
         /* --color-text-faded: color-mix(in srgb, var(--color-text), var(--color-background) 60%); */
